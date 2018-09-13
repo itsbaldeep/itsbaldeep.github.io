@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Baldeep Singh</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Custom CSS -->
+	<style type="text/css">
+		.card-columns {
+		  @include media-breakpoint-only(lg) {
+		    column-count: 4;
+		  }
+		  @include media-breakpoint-only(xl) {
+		    column-count: 5;
+		  }
+		}
+	</style>
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+
+</head>
+<body>
+	<!-- Navigation Bar -->
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+		<div class="container">
+		  <a class="navbar-brand" href="#">Baldeep Singh</a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarText">
+		    <ul class="navbar-nav mr-auto">
+		      <li class="nav-item active">
+		        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#">About</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#contact">Contact</a>
+		      </li>
+		    </ul>
+		    <span class="navbar-text">
+		      Source Code on <a href="https://www.github.com/itsbaldeep/bootstrap">GitHub</a>!
+		    </span>
+		  </div>
+	  	</div>
+	</nav>
+	<!-- Jumbotron -->
+	<div class="jumbotron mt-4">
+		<div class="container">
+		  <h1 class="display-4">Hello, people!</h1>
+		  <p class="lead">My name is Baldeep Singh and I am a front-end web development student, and this site is one of my projects.</p>
+		  <hr class="my-4">
+		  <p>This project has been made through Bootstrap, Source Code is open on GitHub, do check it out and leave comments!</p>
+		  <a class="btn btn-dark btn-lg" href="#" role="button" data-toggle="modal" data-target="#readMoreModal">Read more</a>
+		  	<div class="modal fade" id="readMoreModal" tabindex="-1" role="dialog" aria-labelledby="readMoreModalLabel" aria-hidden="true">
+			  <div class="modal-dialog" role="document">
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <h5 class="modal-title" id="readMoreModalLabel">Uh oh!</h5>
+			        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			          <span aria-hidden="true">&times;</span>
+			        </button>
+			      </div>
+			      <div class="modal-body">
+			        You just clicked the button which I didn't want to work with! Now close the button, I will probably link to actual 'Read More' page after 20 years.
+			      </div>
+			      <div class="modal-footer">
+			        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			        <button type="button" class="btn btn-primary">You have no Option!</button>
+			      </div>
+			    </div>
+			  </div>
+			</div>
+		 </div>
+	</div>
+	<!-- Features -->
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-4 col-md-4 col-sm-12 mb-2">
+				<div class="card text-center">
+				  <div class="card-body">
+				    <h5 class="card-title">Responsiveness</h5>
+				    <p class="card-text">Websites will be automatically reponsive to different devices. The media queries will be done already in Bootstrap according to the Classes.</p>
+				    <a href="#" class="btn btn-secondary" data-toggle="modal" data-target=".bd-example-modal-sm">Learn More</a>
+				    <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+					  <div class="modal-dialog modal-sm">
+					    <div class="modal-content">
+					      I dont't even know why I put that 'Learn More' button there. Nevermind please.
+					    </div>
+					  </div>
+					</div>
+				  </div>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-12 mb-2">
+				<div class="card text-center">
+				  <div class="card-body">
+				    <h5 class="card-title">Attractive Design</h5>
+				    <p class="card-text">The Design, Colors and Spacing in Bootstrap are done in such way to make the website attractive in the best possible way.</p>
+				    <a href="#" class="btn btn-secondary" data-toggle="modal" data-target=".bd-example-modal-sm">Learn More</a>
+				    <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+					  <div class="modal-dialog modal-sm">
+					    <div class="modal-content">
+					      I dont't even know why I put that 'Learn More' button there. Nevermind please.
+					    </div>
+					  </div>
+					</div>
+				  </div>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-12">
+				<div class="card text-center">
+				  <div class="card-body">
+				    <h5 class="card-title">Efficient Code</h5>
+				    <p class="card-text">Using Bootstrap saves alot of time to make websites, writing stylesheets takes alot of time, however in Bootstrap, only HTML is done.</p>
+				    <a href="#" class="btn btn-secondary" data-toggle="modal" data-target=".bd-example-modal-sm">Learn More</a>
+				    <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+					  <div class="modal-dialog modal-sm">
+					    <div class="modal-content">
+					      I dont't even know why I put that 'Learn More' button there. Nevermind please.
+					    </div>
+					  </div>
+					</div>
+				  </div>
+				</div>
+			</div>
+		</div>	
+	</div>
+	<!-- Showcase About Section -->
+	<div class="container mt-4">
+		<div class="card-columns">
+		  <div class="card">
+		    <img class="card-img-top" src="https://images.pexels.com/photos/273230/pexels-photo-273230.jpeg?cs=srgb&dl=arts-build-close-up-273230.jpg&fm=jpg" alt="Card image cap">
+		    <div class="card-body">
+		      <h5 class="card-title">Languages that I know!</h5>
+		      <p class="card-text">In Web Development, I know HTML, CSS, JavaScript, PHP, Python. I know other ones as well which don't have anything to do with Web Development</p>
+		    </div>
+		  </div>
+		  <div class="card p-3">
+		    <blockquote class="blockquote mb-0 card-body">
+		      <p>If you are born poor, it's not your mistake. But if you die poor, it's your Mistake</p>
+		      <footer class="blockquote-footer">
+		        <small class="text-muted">
+		          Words by <cite title="Source Title">Bill Gates</cite>
+		        </small>
+		      </footer>
+		    </blockquote>
+		  </div>
+		  <div class="card">
+		    <img class="card-img-top" src="https://images.pexels.com/photos/6253/city-street-typography-design.jpg?cs=srgb&dl=ad-adversting-advertisment-6253.jpg&fm=jpg" alt="Card image cap">
+		    <div class="card-body">
+		      <h5 class="card-title">Frameworks I work with!</h5>
+		      <p class="card-text">CSS Frameworks like Bootstrap ofcourse, Materialize. JavaScript Frameworks like Vue.js Node.js</p>
+		      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+		    </div>
+		  </div>
+		  
+		  <div class="card text-center">
+		    <div class="card-body">
+		      <h5 class="card-title">Other skills I have</h5>
+		      <p class="card-text">I know how to work with Git and GitHub, I know Sass preprocessor and I also know jQuery library.</p>
+		      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+		    </div>
+		  </div>
+		  <div class="card">
+		    <img class="card-img" src="https://images.pexels.com/photos/401107/pexels-photo-401107.jpeg?cs=srgb&dl=bright-clear-close-up-401107.jpg&fm=jpg" alt="Card image">
+		  </div>
+		  <div class="card p-3 text-right">
+		    <blockquote class="blockquote mb-0">
+		      <p>Coding is the closest thing to superpower that we have right now!</p>
+		      <footer class="blockquote-footer">
+		        <small class="text-muted">
+		          Words by <cite title="Source Title">Someone, idk the name.</cite>
+		        </small>
+		      </footer>
+		    </blockquote>
+		  </div>
+		  <div class="card">
+		    <div class="card-body">
+		      <h5 class="card-title">Rest about myself</h5>
+		      <p class="card-text">I completed my high school with commerce subjects, then I'm going to pursue a career in IT. However, I have alot of interest in Business Management, and I always apply management principles in Real Life.</p>
+		      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+		    </div>
+		  </div>
+		</div>
+	</div>
+	<!-- Contact Section -->
+	<div class="container" id="contact">
+		<div class="row">
+			<div class="col-lg-4 col-md-4 col-sm-12 mb-2">
+				<div class="card text-center">
+				  <div class="card-header">
+				    <ul class="nav nav-tabs card-header-tabs">
+				      <li class="nav-item">
+				        <a class="nav-link active">Social Link</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="https://twitter.com/itsbaldeepsingh">Link to Profile</a>
+				      </li>
+				    </ul>
+				  </div>
+				  <div class="card-body">
+				    <h5 class="card-title">Follow me on Twitter!</h5>
+				    <p class="card-text">twitter.com/itsbaldeepsingh</p>
+				    <a href="https://twitter.com/itsbaldeepsingh" class="btn btn-secondary">Visit Profile</a>
+				  </div>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-12 mb-2">
+				<div class="card text-center">
+				  <div class="card-header">
+				    <ul class="nav nav-tabs card-header-tabs">
+				      <li class="nav-item">
+				        <a class="nav-link active">Contact Me</a>
+				      </li>
+				    </ul>
+				  </div>
+				  <div class="card-body">
+				    <h5 class="card-title">Mail me!</h5>
+				    <p class="card-text">itsbaldeep@gmail.com</p>
+				    <a href="mailto:itsbaldeep@gmail.com" class="btn btn-secondary">Mail</a>
+				  </div>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-12 mb-2">
+				<div class="card text-center">
+				  <div class="card-header">
+				    <ul class="nav nav-tabs card-header-tabs">
+				      <li class="nav-item">
+				        <a class="nav-link active">Social Link</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="https://github.com/itsbaldeep">Link to Profile</a>
+				      </li>
+				    </ul>
+				  </div>
+				  <div class="card-body">
+				    <h5 class="card-title">Check me out on GitHub!</h5>
+				    <p class="card-text">github.com/itsbaldeep</p>
+				    <a href="https://github.com/itsbaldeep" class="btn btn-secondary">Visit Profile</a>
+				  </div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Footer -->
+	<div class="card bg-dark text-light py-0 my-0">
+		<div class="container">	
+		  <div class="card-body text-center mt-2">
+		      <p>Baldeep Singh, itsbaldeep@gmail.com &copy; 2018</p>
+		  </div>
+		</div>
+	</div>
+	<!-- jQuery, Popper and Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>
